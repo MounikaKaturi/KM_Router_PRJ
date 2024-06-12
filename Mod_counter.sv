@@ -32,7 +32,7 @@ endpackage
 
 //Interface
 interface count_if(input bit clk);
-logic rst,load,mode;
+//logic rst,load,mode;
 logic [3:0]data_in,data_out;
 
 //clocking block for write Driver
