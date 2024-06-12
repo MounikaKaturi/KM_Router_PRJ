@@ -1,6 +1,7 @@
 module counter(clk,rst,mode,load,data_in,data_out);
 input clk,rst,load,mode;
 input [3:0]data_in;
+input d_in;
 output reg [3:0]data_out;
 always@(posedge clk)
  begin
